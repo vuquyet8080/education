@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import Container from "./Container";
 
 export const Features = () => {
@@ -54,8 +55,8 @@ export const Features = () => {
                   công cụ và thư viện phổ biến.
                 </p>
               </div>
-              <a
-                href="#"
+              <Link
+                href="/front-end"
                 class="flex items-center justify-between group-hover:text-secondary"
               >
                 <span class="text-sm">Xem chi tiết</span>
@@ -71,7 +72,7 @@ export const Features = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">

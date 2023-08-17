@@ -11,7 +11,7 @@ export const HeroSection = () => {
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
       <Container>
-        <div className="relative ml-auto pt-36">
+        <div className="relative pt-16 ml-auto md:pt-20 lg:pt-24">
           <div className="mx-auto text-center lg:w-2/3">
             <h1 className="text-5xl font-bold text-gray-900 dark:text-white md:text-6xl xl:text-7xl">
               Just.engineer <br />

@@ -6,10 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div class="bg-white dark:bg-gray-900">
+    <div>
       <HeroSection />
       <Features />
-      {/* <AppFooter /> */}
       <footer class="py-10 md:py-20">/</footer>
     </div>
   );
