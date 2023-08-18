@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Container from "./Container";
+import Image from "next/image";
 
 const AppHeader = () => {
   return (
@@ -20,9 +21,17 @@ const AppHeader = () => {
                 aria-label="logo"
                 class="flex items-center space-x-2"
               >
-                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                {/* <span class="text-2xl font-bold text-gray-900 dark:text-white">
                   Home
-                </span>
+                </span> */}
+                <div className="relative w-32 h-32 ">
+                  <Image
+                    alt="logo"
+                    src={"/just-wink.webp"}
+                    fill
+                    className="absolute p-6"
+                  />
+                </div>
               </Link>
 
               <div class="relative flex items-center lg:hidden max-h-10">
