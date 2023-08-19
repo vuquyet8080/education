@@ -10,7 +10,6 @@ export default function Home() {
     <div>
       <HeroSection />
       {/* <CallToAction /> */}
-      {/* <Stats /> */}
       <Blog />
       <Features />
       <footer class="py-10 md:py-20">/</footer>
