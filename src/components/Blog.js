@@ -16,8 +16,8 @@ export const Blog = () => {
             <div class="relative overflow-hidden rounded-xl">
               <div className="relative object-cover object-top w-full transition duration-500 group-hover:scale-105">
                 <Image
-                  width={200}
-                  height={200}
+                  width={600}
+                  height={600}
                   src="/levion_preview.webp"
                   alt="art cover"
                   loading="lazy"
@@ -43,9 +43,9 @@ export const Blog = () => {
               <div className="relative object-cover object-top w-full transition duration-500 group-hover:scale-105">
                 <Image
                   // fill
-                  width={200}
-                  height={200}
-                  src="/hrm_preview.jpeg"
+                  width={600}
+                  height={600}
+                  src="/hrm_preview.webp"
                   alt="art cover"
                   loading="lazy"
                   // unoptimized
@@ -70,8 +70,8 @@ export const Blog = () => {
               <div className="relative object-cover object-top w-full transition duration-500 group-hover:scale-105">
                 <Image
                   // fill
-                  width={200}
-                  height={200}
+                  width={600}
+                  height={600}
                   src="/crm_prewview.webp"
                   alt="art cover"
                   loading="lazy"

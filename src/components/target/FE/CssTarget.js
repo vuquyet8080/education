@@ -25,7 +25,9 @@ export default function CssTarget() {
         Responsive
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        <p className="mb-3 text-xl font-bold">Target</p>
+        <p className="mb-3 text-xl font-bold text-zinc-700 dark:text-indigo-600">
+          Target
+        </p>
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
         <div className="flex flex-col gap-y-3">

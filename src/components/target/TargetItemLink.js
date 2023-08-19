@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function TargetItemLink({ title, link }) {
   return (
@@ -16,10 +15,9 @@ export default function TargetItemLink({ title, link }) {
         </div>
         <Link
           target="_blank"
-          className="text-blue-500 hover:opacity-80"
+          className="text-blue-500 dark:text-blue-600 hover:opacity-80"
           href={link}
         >
-          {/* Vượt qua 70% câu hỏi Basic JavaScript */}
           {title}
         </Link>
       </div>
