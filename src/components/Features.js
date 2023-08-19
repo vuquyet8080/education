@@ -6,7 +6,7 @@ export const Features = () => {
   return (
     <div id="features">
       <Container>
-        <div class="md:w-2/3 lg:w-1/2">
+        <div class="md:w-2/3 lg:w-1/2 pt-10 sm:pt-12 md:pt-14 lg:pt-16">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
