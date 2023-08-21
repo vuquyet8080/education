@@ -9,7 +9,7 @@ export default function GitTarget() {
   return (
     <AccordionItem value="GIT">
       <AccordionTrigger className="pl-2 text-gray-900">
-        Version Control Systems (Git)
+        VERSION CONTROL SYSTEM (GIT)
       </AccordionTrigger>
       <AccordionContent className="pl-6 text-gray-500">
         <Link

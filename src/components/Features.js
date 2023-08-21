@@ -95,8 +95,8 @@ export const Features = () => {
                   ứng dụng.
                 </p>
               </div>
-              <a
-                href="#"
+              <Link
+                href="/back-end"
                 class="flex items-center justify-between group-hover:text-secondary"
               >
                 <span class="text-sm">Xem chi tiết</span>
@@ -112,7 +112,7 @@ export const Features = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
 

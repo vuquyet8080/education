@@ -9,7 +9,7 @@ export default function ReactTarget() {
   return (
     <AccordionItem value="REACT">
       <AccordionTrigger className="pl-2 text-gray-900">
-        ReactJS
+        REACT JS
       </AccordionTrigger>
       <AccordionContent className="pl-6 text-gray-500">
         {/* How does the internet work? */}
