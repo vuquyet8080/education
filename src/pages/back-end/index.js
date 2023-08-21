@@ -1,12 +1,10 @@
 import Container from "@/components/Container";
 import { Stats } from "@/components/Stats";
+import CSDLTarget from "@/components/target/BE/CSDLTarget";
 import NodeAndExpressTarget from "@/components/target/BE/NodeAndExpressTarget";
-import CssTarget from "@/components/target/FE/CssTarget";
 import GitTarget from "@/components/target/FE/GitTarget";
-import HtmlTarget from "@/components/target/FE/HtmlTarget";
 import InternetTarget from "@/components/target/FE/InternetTarget";
 import JavascriptTarget from "@/components/target/FE/JavascriptTarget";
-import ReactTarget from "@/components/target/FE/ReactTarget";
 import { Accordion } from "@/components/ui/accordion";
 export default function FrondEnd() {
   return (
@@ -40,6 +38,7 @@ export default function FrondEnd() {
           <Accordion type="multiple" collapsible>
             <InternetTarget />
             <JavascriptTarget />
+            <CSDLTarget />
             <NodeAndExpressTarget />
             <GitTarget />
           </Accordion>

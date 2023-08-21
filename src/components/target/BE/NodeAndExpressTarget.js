@@ -47,6 +47,12 @@ export default function NodeAndExpressTarget() {
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
         <div className="flex flex-col gap-y-3">
+          <TargetItemLink
+            link={
+              "https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express"
+            }
+            title={"Vượt qua 100% câu hỏi Basic Node and Express"}
+          />
           <TargetItem
             title={` Hiểu cách xác định các định tuyến (routes) để xử lý các yêu cầu HTTP từ phía client`}
           />
