@@ -174,33 +174,6 @@ export const AppFooter = () => {
                 </li>
               </ul>
             </div>
-            <div class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
-              <span class="block text-gray-500 dark:text-gray-400">
-                We change the way UI components librairies are used
-              </span>
-
-              <span class="block text-gray-500 dark:text-gray-400">
-                Tailus Blocks &copy; <span id="year"></span>
-              </span>
-
-              <span class="flex justify-between text-gray-600 dark:text-white">
-                <a href="#" class="font-medium">
-                  Terms of Use{" "}
-                </a>
-                <a href="#" class="font-medium">
-                  {" "}
-                  Privacy Policy
-                </a>
-              </span>
-
-              <span class="block text-gray-500 dark:text-gray-400">
-                Need help?{" "}
-                <a href="#" class="font-semibold text-gray-600 dark:text-white">
-                  {" "}
-                  Contact Us
-                </a>
-              </span>
-            </div>
           </div>
         </div>
       </Container>
