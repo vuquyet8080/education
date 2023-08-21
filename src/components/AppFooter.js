@@ -141,21 +141,7 @@ export const AppFooter = () => {
                     <span>Pintrest</span>
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    class="flex items-center space-x-3 transition hover:text-primary"
-                  >
-                    <img
-                      class="h-5 w-5"
-                      width="32"
-                      height="32"
-                      src="https://c5.patreon.com/external/favicon/favicon.ico?v=69kMELnXkB"
-                      alt="patreon icon"
-                    />
-                    <span>Patreon</span>
-                  </a>
-                </li>
+
                 <li>
                   <a
                     href="#"
