@@ -18,8 +18,7 @@ export default function FrondEnd() {
             <p class="text-gray-600 dark:text-gray-300 pb-2">
               Học lập trình backend là khám phá thế giới bí ẩn của sự vận hành
               đằng sau những ứng dụng web và dịch vụ trực tuyến mà chúng ta
-              thường xuyên sử dụng. Trong lộ trình học này, bạn sẽ được dẫn dắt
-              qua hành trình từng bước để hiểu rõ cách các máy chủ hoạt động,
+              thường xuyên sử dụng. Bạn sẽ nắm được cách các máy chủ hoạt động,
               làm thế nào chúng tương tác với cơ sở dữ liệu, và quản lý dữ liệu
               và yêu cầu từ phía client.
             </p>
