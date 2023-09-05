@@ -12,7 +12,7 @@ export default function Home() {
       {/* <CallToAction /> */}
       <Blog />
       <Features />
-      <footer class="py-10 md:py-20">/</footer>
+      <footer className="py-10 md:py-20">/</footer>
     </div>
   );
 }

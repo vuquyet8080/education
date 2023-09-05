@@ -9,25 +9,25 @@ import ReactTarget from "@/components/target/FE/ReactTarget";
 import { Accordion } from "@/components/ui/accordion";
 export default function FrondEnd() {
   return (
-    <div class="min-h-screen pb-32">
+    <div className="min-h-screen pb-32">
       <div id="frond_end ">
         <Container>
-          <div class="md:w-2/3 lg:w-1/2">
-            <h2 class="my-6 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+          <div className="md:w-2/3 lg:w-1/2">
+            <h2 className="my-6 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
               Lộ trình đào tạo Front-end
             </h2>
-            <p class="text-gray-600 dark:text-gray-300 pb-2">
+            <p className="text-gray-600 dark:text-gray-300 pb-2">
               Frontend tập trung vào việc phát triển giao diện của các ứng dụng
               web. Trong quá trình này, bạn sẽ học cách sử dụng HTML để xây dựng
               cấu trúc nội dung, CSS để làm giao diện hấp dẫn và JavaScript để
               tạo sự tương tác và động đẹp mắt cho trang web.
             </p>
-            <p class="text-gray-600 dark:text-gray-300">
+            <p className="text-gray-600 dark:text-gray-300">
               Bạn cũng được làm việc với các Libraries và Frameworks phổ biến
               như React, Redux, Axios, Formik...
             </p>
           </div>
-          <h2 class=" mb-8 pt-10 md:pt-12 lg:pt-14 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+          <h2 className=" mb-8 pt-10 md:pt-12 lg:pt-14 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
             Nội dung đào tạo
           </h2>
 
@@ -40,17 +40,17 @@ export default function FrondEnd() {
             <ReactTarget />
             <GitTarget />
           </Accordion>
-          <h2 class=" mb-10 pt-12 md:pt-14 lg:pt-16 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+          <h2 className=" mb-10 pt-12 md:pt-14 lg:pt-16 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
             Resource
           </h2>
           <Stats />
           <Container>
-            <div class="pt-6 md:pt-10">
-              <div class="w-full">
-                <p class="mt-10 text-xl font-bold text-gray-600 dark:text-white md:text-2xl ">
+            <div className="pt-6 md:pt-10">
+              <div className="w-full">
+                <p className="mt-10 text-xl font-bold text-gray-600 dark:text-white md:text-2xl ">
                   Tính năng
                 </p>
-                <ul class=" my-6 gap-y-3 flex flex-col text-gray-500 list-disc list-inside dark:text-gray-400">
+                <ul className=" my-6 gap-y-3 flex flex-col text-gray-500 list-disc list-inside dark:text-gray-400">
                   <li>
                     Quản lý hồ sơ nhân viên: Lưu trữ thông tin cá nhân, kỹ năng,
                     kinh nghiệm, học vấn và lịch sử làm việc của nhân viên.
@@ -69,12 +69,12 @@ export default function FrondEnd() {
             </div>
           </Container>
           <Container>
-            <div class="">
-              <div class="w-full">
-                <p class="mt-14  lg:mt-14 text-xl font-bold text-gray-600 dark:text-white md:text-2xl ">
+            <div className="">
+              <div className="w-full">
+                <p className="mt-14  lg:mt-14 text-xl font-bold text-gray-600 dark:text-white md:text-2xl ">
                   Công cụ và Công nghệ
                 </p>
-                <ul class=" my-6 gap-y-3 flex flex-col text-gray-500 list-disc list-inside dark:text-gray-400">
+                <ul className=" my-6 gap-y-3 flex flex-col text-gray-500 list-disc list-inside dark:text-gray-400">
                   <li>
                     ReactJS: React là một thư viện JavaScript phổ biến để xây
                     dựng giao diện người dùng tương tác

@@ -6,12 +6,12 @@ export const Features = () => {
   return (
     <div id="features">
       <Container>
-        <div class="md:w-2/3 lg:w-1/2 pt-10 sm:pt-12 md:pt-14 lg:pt-16">
+        <div className="md:w-2/3 lg:w-1/2 pt-10 sm:pt-12 md:pt-14 lg:pt-16">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="blue"
-            class="w-6 h-6 text-secondary"
+            className="w-6 h-6 text-secondary"
           >
             <path
               fill-rule="evenodd"
@@ -20,36 +20,36 @@ export const Features = () => {
             />
           </svg>
 
-          <h2 class="my-6 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
+          <h2 className="my-6 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
             Lộ trình đào tạo
           </h2>
-          <p class="text-gray-600 dark:text-gray-300 pb-2">
+          <p className="text-gray-600 dark:text-gray-300 pb-2">
             Với Frontend, bạn sẽ khám phá cách tạo ra giao diện người dùng, từ
             việc xây dựng các trang web thân thiện với người dùng đến việc thể
             hiện dữ liệu một cách hấp dẫn và hiệu quả.
           </p>
-          <p class="text-gray-600 dark:text-gray-300">
+          <p className="text-gray-600 dark:text-gray-300">
             Trong khi đó, Backend sẽ giúp bạn hiểu hơn máy chủ và dữ liệu. Bạn
             sẽ tìm hiểu về cách xây dựng và quản lý các hệ thống máy chủ mạnh
             mẽ, đảm bảo sự ổn định và bảo mật cho ứng dụng.
           </p>
         </div>
-        <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3">
-          <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-            <div class="relative space-y-8 py-12 p-8">
+        <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3">
+          <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div className="relative space-y-8 py-12 p-8">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
-                class="w-12"
+                className="w-12"
                 width="512"
                 height="512"
                 alt="burger illustration"
               />
 
-              <div class="space-y-2">
-                <h5 class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <div className="space-y-2">
+                <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                   Frond-end
                 </h5>
-                <p class="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300">
                   Bạn sẽ học cách tạo ra trải nghiệm trực quan và hấp dẫn cho
                   người dùng, đồng thời tìm hiểu cách làm việc hiệu quả với các
                   công cụ và thư viện phổ biến.
@@ -57,14 +57,14 @@ export const Features = () => {
               </div>
               <Link
                 href="/front-end"
-                class="flex items-center justify-between group-hover:text-secondary"
+                className="flex items-center justify-between group-hover:text-secondary"
               >
-                <span class="text-sm">Xem chi tiết</span>
+                <span className="text-sm">Xem chi tiết</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                  className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
                 >
                   <path
                     fill-rule="evenodd"
@@ -75,21 +75,21 @@ export const Features = () => {
               </Link>
             </div>
           </div>
-          <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-            <div class="relative space-y-8 py-12 p-8">
+          <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div className="relative space-y-8 py-12 p-8">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
-                class="w-12"
+                className="w-12"
                 width="512"
                 height="512"
                 alt="burger illustration"
               />
 
-              <div class="space-y-2">
-                <h5 class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <div className="space-y-2">
+                <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                   Back-end
                 </h5>
-                <p class="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300">
                   Bạn sẽ khám phá cách tạo ra các API (Application Programming
                   Interface) để cho phép giao tiếp giữa các phần khác nhau của
                   ứng dụng.
@@ -97,14 +97,14 @@ export const Features = () => {
               </div>
               <Link
                 href="/back-end"
-                class="flex items-center justify-between group-hover:text-secondary"
+                className="flex items-center justify-between group-hover:text-secondary"
               >
-                <span class="text-sm">Xem chi tiết</span>
+                <span className="text-sm">Xem chi tiết</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                  className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
                 >
                   <path
                     fill-rule="evenodd"
@@ -116,21 +116,21 @@ export const Features = () => {
             </div>
           </div>
 
-          <div class="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-            <div class="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
+          <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div className="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
-                class="w-12"
+                className="w-12"
                 width="512"
                 height="512"
                 alt="burger illustration"
               />
 
-              <div class="space-y-2">
-                <h5 class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+              <div className="space-y-2">
+                <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
                   Mobile
                 </h5>
-                <p class="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300">
                   Bạn sẽ được học cách xây dựng những ứng dụng cho các nền tảng
                   Android và iOS, tạo ra những trải nghiệm tương tác độc đáo
                   trên các thiết bị di động.
@@ -138,14 +138,14 @@ export const Features = () => {
               </div>
               <a
                 href="#"
-                class="flex items-center justify-between group-hover:text-secondary"
+                className="flex items-center justify-between group-hover:text-secondary"
               >
-                <span class="text-sm">Xem chi tiết</span>
+                <span className="text-sm">Xem chi tiết</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                  className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
                 >
                   <path
                     fill-rule="evenodd"
