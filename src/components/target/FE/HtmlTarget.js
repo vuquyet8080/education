@@ -24,6 +24,9 @@ export default function HtmlTarget() {
         Attribute trong HTML là gì?
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
+        Tìm hiểu semantic tags và áp dụng xây dựng 1 trang web.
+      </AccordionContent>
+      <AccordionContent className="pl-6 text-gray-500">
         <p className="mb-3 text-xl font-bold text-zinc-700 dark:text-indigo-600 ">
           Target
         </p>

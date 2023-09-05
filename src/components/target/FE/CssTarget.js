@@ -47,6 +47,14 @@ export default function CssTarget() {
             link={"https://flexboxfroggy.com"}
             title={"Vượt qua 24 levels FLEXBOX FROGGY"}
           />
+          <TargetItemLink
+            link={
+              "https://www.figma.com/file/cscfd0GLreET6egwT3hdfj/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)-(Community)?type=design&node-id=1%3A2&mode=design&t=jT4wUiOGkOWtKFh9-1"
+            }
+            title={
+              "Áp dụng kiến thức HTML, CSS, semantic tags hoàn thiện trang web"
+            }
+          />
         </div>
       </AccordionContent>
     </AccordionItem>

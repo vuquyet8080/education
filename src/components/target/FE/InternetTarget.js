@@ -9,7 +9,7 @@ export default function InternetTarget() {
   return (
     <AccordionItem value="INTERNET">
       <AccordionTrigger className="pl-2 text-gray-900">
-        INTERNET
+        NETWORK
       </AccordionTrigger>
       <AccordionContent className="pl-6 text-gray-500">
         {/* How does the internet work? */}

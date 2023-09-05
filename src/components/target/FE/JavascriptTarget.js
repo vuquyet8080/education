@@ -30,7 +30,10 @@ export default function JavascriptTarget() {
         ECMAScript 6+
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        Asynchronous JavaScript( Callbacks, Promises, Async/Await)
+        Data Structures
+      </AccordionContent>
+      <AccordionContent className="pl-6 text-gray-500">
+        Prototype & Class
       </AccordionContent>
 
       <AccordionContent className="pl-6 text-gray-500">
