@@ -38,8 +38,8 @@ export const Features = () => {
           <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
             <div className="relative p-8 py-12 space-y-8">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
-                className="w-12"
+                src="/web-development.png"
+                className="w-20"
                 width="512"
                 height="512"
                 alt="burger illustration"
@@ -78,8 +78,8 @@ export const Features = () => {
           <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
             <div className="relative p-8 py-12 space-y-8">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
-                className="w-12"
+                src="/api.png"
+                className="w-20"
                 width="512"
                 height="512"
                 alt="burger illustration"
@@ -119,8 +119,8 @@ export const Features = () => {
           <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
             <div className="relative p-8 py-12 space-y-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
-                className="w-12"
+                src="/mobile-coding.png"
+                className="w-20"
                 width="512"
                 height="512"
                 alt="burger illustration"
