@@ -30,7 +30,7 @@ export default function InternetTarget() {
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
         {/* DNS and how it works? */}
-        DSN là gì?
+        DNS là gì?
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
         {/* Browsers and how they work? */}

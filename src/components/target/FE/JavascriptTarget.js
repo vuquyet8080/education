@@ -21,6 +21,9 @@ export default function JavascriptTarget() {
         Function, Array, Object
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
+        Data Structures
+      </AccordionContent>
+      <AccordionContent className="pl-6 text-gray-500">
         Lệnh rẽ nhánh, toán tử 3 ngôi
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
@@ -30,8 +33,9 @@ export default function JavascriptTarget() {
         ECMAScript 6+
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        Data Structures
+        Asynchronous JavaScript( Callbacks, Promises, Async/Await)
       </AccordionContent>
+
       <AccordionContent className="pl-6 text-gray-500">
         Prototype & Class
       </AccordionContent>
