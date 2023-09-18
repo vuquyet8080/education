@@ -137,7 +137,7 @@ export const Features = () => {
                 </p>
               </div>
               <a
-                href="#"
+                href="/mobile"
                 className="flex items-center justify-between group-hover:text-secondary"
               >
                 <span className="text-sm">Xem chi tiết</span>

@@ -3,40 +3,27 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Link from "next/link";
 import TargetItem from "../BE/TargetItem";
 
-export default function GitTarget() {
+export default function SetupEnv() {
   return (
-    <AccordionItem value="GIT">
+    <AccordionItem value="SetupEnv">
       <AccordionTrigger className="pl-2 text-gray-900">
-        VERSION CONTROL SYSTEM (GIT)
+        React Native Environment Setup
       </AccordionTrigger>
       <AccordionContent className="pl-6 text-gray-500">
-        <Link
-          target="_blank"
-          className="text-blue-500 hover:opacity-80"
-          href={"https://backlog.com/git-tutorial/vn/intro/intro1_1.html"}
-        >
-          Các khái niệm cơ bản về Git
-        </Link>
+        Installing dependencies
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        Các Git commands cơ bản (branch, checkout, commit, merge, fetch, pull,
-        push, config...)
+        Xcode & Android Studio
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        Git stash, pop, revert
+        Installing an iOS Simulator in Xcode
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        Cherry-pick
+        Install CocoaPods
       </AccordionContent>
-      <AccordionContent className="pl-6 text-gray-500">
-        Git flow
-      </AccordionContent>
-      <AccordionContent className="pl-6 text-gray-500">
-        Resolve conflict
-      </AccordionContent>
+
       <AccordionContent className="pl-6 text-gray-500">
         <p className="mb-3 text-xl font-bold text-zinc-700 dark:text-indigo-600">
           Target
@@ -45,7 +32,9 @@ export default function GitTarget() {
       <AccordionContent className="pl-6 text-gray-500">
         <div className="flex flex-col gap-y-3">
           <TargetItem
-            title={"Đẩy source code project của bạn lên Gib Hub hoặc Git Lab"}
+            title={
+              "Creating a new application and Running your React Native application"
+            }
           />
         </div>
       </AccordionContent>
