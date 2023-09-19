@@ -7,6 +7,7 @@ import InternetTarget from "@/components/target/FE/InternetTarget";
 import JavascriptTarget from "@/components/target/FE/JavascriptTarget";
 import ReactTarget from "@/components/target/FE/ReactTarget";
 import { Accordion } from "@/components/ui/accordion";
+import { PROJECT_FE_CONTENT } from "@/constants/projectFeContent";
 export default function FrontEnd() {
   return (
     <div className="min-h-screen pb-32">
@@ -44,27 +45,19 @@ export default function FrontEnd() {
           <h2 className="pt-12 mb-10 text-2xl font-bold text-gray-700 md:pt-14 lg:pt-16 dark:text-white md:text-4xl">
             Resource
           </h2>
-          <Stats />
+          <Stats data={PROJECT_FE_CONTENT} />
+
           <Container>
             <div className="pt-6 md:pt-10">
               <div className="w-full">
                 <p className="mt-10 text-xl font-bold text-gray-600 dark:text-white md:text-2xl ">
                   Tính năng
                 </p>
+
                 <ul className="flex flex-col my-6 text-gray-500 list-disc list-inside gap-y-3 dark:text-gray-400">
-                  <li>
-                    Quản lý hồ sơ nhân viên: Lưu trữ thông tin cá nhân, kỹ năng,
-                    kinh nghiệm, học vấn và lịch sử làm việc của nhân viên.
-                  </li>
-                  <li>
-                    Quản lý chấm công và lương: Ghi nhận giờ làm việc, nghỉ
-                    phép, ngày nghỉ, tính lương và thưởng.
-                  </li>
-                  <li>
-                    Quản lý thông tin về chế độ phúc lợi: Quản lý thông tin về
-                    bảo hiểm, chế độ nghỉ phép, và các quyền lợi khác của nhân
-                    viên.
-                  </li>
+                  {PROJECT_FE_CONTENT?.features?.map((item, index) => {
+                    return <li key={index}>{item}</li>;
+                  })}
                 </ul>
               </div>
             </div>

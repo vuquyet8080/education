@@ -8,6 +8,7 @@ import ComponentsMobile from "@/components/target/mobile/ComponentsMobile";
 import CssMobileTarget from "@/components/target/mobile/CssMobileTarget";
 import SetupEnv from "@/components/target/mobile/SetupEnv";
 import { Accordion } from "@/components/ui/accordion";
+import { PROJECT_MB_CONTENT } from "@/constants/projectMobileContent";
 export default function Mobile() {
   return (
     <div className="min-h-screen pb-32">
@@ -42,10 +43,10 @@ export default function Mobile() {
             <ComponentsMobile />
             <GitTarget />
           </Accordion>
-          {/* <h2 className="pt-12 mb-10 text-2xl font-bold text-gray-700 md:pt-14 lg:pt-16 dark:text-white md:text-4xl">
+          <h2 className="pt-12 mb-10 text-2xl font-bold text-gray-700 md:pt-14 lg:pt-16 dark:text-white md:text-4xl">
             Resource
           </h2>
-          <Stats />
+          <Stats data={PROJECT_MB_CONTENT} />
           <Container>
             <div className="pt-6 md:pt-10">
               <div className="w-full">
@@ -53,19 +54,9 @@ export default function Mobile() {
                   Tính năng
                 </p>
                 <ul className="flex flex-col my-6 text-gray-500 list-disc list-inside gap-y-3 dark:text-gray-400">
-                  <li>
-                    Quản lý hồ sơ nhân viên: Lưu trữ thông tin cá nhân, kỹ năng,
-                    kinh nghiệm, học vấn và lịch sử làm việc của nhân viên.
-                  </li>
-                  <li>
-                    Quản lý chấm công và lương: Ghi nhận giờ làm việc, nghỉ
-                    phép, ngày nghỉ, tính lương và thưởng.
-                  </li>
-                  <li>
-                    Quản lý thông tin về chế độ phúc lợi: Quản lý thông tin về
-                    bảo hiểm, chế độ nghỉ phép, và các quyền lợi khác của nhân
-                    viên.
-                  </li>
+                  {PROJECT_MB_CONTENT?.features?.map((item, index) => {
+                    return <li key={index}>{item}</li>;
+                  })}
                 </ul>
               </div>
             </div>
@@ -78,21 +69,41 @@ export default function Mobile() {
                 </p>
                 <ul className="flex flex-col my-6 text-gray-500 list-disc list-inside gap-y-3 dark:text-gray-400">
                   <li>
-                    ReactJS: React là một thư viện JavaScript phổ biến để xây
-                    dựng giao diện người dùng tương tác
+                    React Native Framework: React Native cho phép bạn sử dụng
+                    JavaScript hoặc TypeScript để phát triển ứng dụng di động đa
+                    nền tảng.
                   </li>
                   <li>
-                    React Router: Thư viện giúp quản lý định tuyến (routing)
-                    trong ứng dụng React, cho phép chuyển đổi giữa các trang mà
-                    không cần tải lại toàn bộ trang.
+                    React Navigation: là một thư viện quản lý điều hướng trong
+                    ứng dụng React Native. Nó cung cấp các thành phần và API cho
+                    việc tạo và tùy chỉnh các luồng điều hướng.
+                  </li>
+                  <li>
+                    Quản lý Trạng Thái Ứng Dụng: MobX giúp bạn quản lý trạng
+                    thái của ứng dụng, bao gồm thông tin như dữ liệu từ máy chủ,
+                    trạng thái đăng nhập, giỏ hàng của người dùng, cài đặt ứng
+                    dụng, và nhiều trạng thái khác.
+                  </li>
+                  <li>
+                    Thư viện UI: Có nhiều thư viện UI bên ngoài như React Native
+                    Elements, React Native Paper, và NativeBase giúp bạn xây
+                    dựng giao diện người dùng nhanh chóng và đẹp mắt.
+                  </li>
+                  <li>
+                    Firebase hoặc AWS Amplify: Các dịch vụ đám mây như Firebase
+                    hoặc AWS Amplify được sử dụng cho việc quản lý người dùng,
+                    xử lý xác thực, lưu trữ dữ liệu, và thêm tính năng thời gian
+                    thực vào ứng dụng.
                   </li>
                   <li>
                     Axios hoặc Fetch: Để thực hiện các yêu cầu HTTP từ phía
                     client đến server, giúp tương tác với dữ liệu từ các API.
                   </li>
                   <li>
-                    Tailwind CSS: Giúp tạo giao diện đẹp mắt và thân thiện với
-                    người dùng một cách nhanh chóng.
+                    AsyncStorage và Realm: AsyncStorage là một thư viện cho phép
+                    bạn lưu trữ dữ liệu cục bộ trong ứng dụng React Native.
+                    Realm là một cơ sở dữ liệu nhẹ được sử dụng cho các tác vụ
+                    lưu trữ dữ liệu phức tạp hơn.
                   </li>
                   <li>
                     Formik hoặc React Hook Form: Cung cấp các công cụ để quản lý
@@ -105,7 +116,7 @@ export default function Mobile() {
                 </ul>
               </div>
             </div>
-          </Container> */}
+          </Container>
         </Container>
       </div>
     </div>
