@@ -4,8 +4,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import TargetItemLink from "../TargetItemLink";
+import TargetItem from "../BE/TargetItem";
 
-export default function ReactTarget() {
+export default function ReactTarget({ isMobile }) {
   return (
     <AccordionItem value="REACT">
       <AccordionTrigger className="pl-2 text-gray-900">
@@ -25,7 +26,7 @@ export default function ReactTarget() {
         Routers, React Router
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
-        State Management (Context, Redux / Toolkit)
+        State Management (Context, Redux / Toolkit, Mobx)
       </AccordionContent>
       <AccordionContent className="pl-6 text-gray-500">
         API Calls (Axios)
@@ -43,18 +44,32 @@ export default function ReactTarget() {
             }
             title={"Vượt qua 70% câu hỏi React"}
           />
-          <TargetItemLink
-            link={
-              "https://www.freecodecamp.org/learn/front-end-development-libraries/#redux"
-            }
-            title={"Vượt qua 100% câu hỏi Redux"}
-          />
-          <TargetItemLink
-            link={
-              "https://www.freecodecamp.org/learn/front-end-development-libraries/#react-and-redux"
-            }
-            title={"Vượt qua 100% câu hỏi React and Redux"}
-          />
+          {isMobile ? (
+            <>
+              <div className="flex flex-col gap-y-3">
+                <TargetItem
+                  title={
+                    "Nắm được các khái niệm về Mobx (Observable State, Observables, Computed Properties, Actions, MobX Store, Provider, Inject, Reactive Programming,...)"
+                  }
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <TargetItemLink
+                link={
+                  "https://www.freecodecamp.org/learn/front-end-development-libraries/#redux"
+                }
+                title={"Vượt qua 100% câu hỏi Redux"}
+              />
+              <TargetItemLink
+                link={
+                  "https://www.freecodecamp.org/learn/front-end-development-libraries/#react-and-redux"
+                }
+                title={"Vượt qua 100% câu hỏi React and Redux"}
+              />
+            </>
+          )}
         </div>
       </AccordionContent>
     </AccordionItem>

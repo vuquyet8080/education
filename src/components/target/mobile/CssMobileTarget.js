@@ -35,7 +35,7 @@ export default function CssMobileTarget() {
             link={
               "https://www.freecodecamp.org/learn/responsive-web-design/#basic-css"
             }
-            title={"Vượt qua 50% câu hỏi Basic CSS"}
+            title={"Vượt qua 70% câu hỏi Basic CSS"}
           />
 
           <TargetItemLink
@@ -44,9 +44,11 @@ export default function CssMobileTarget() {
           />
           <TargetItemLink
             link={
-              "https://www.figma.com/file/bJC0H9yVCoWZDn36OYaB8V/Aspen-Travel-App-Exploration--Mobile-App-Design-(Community)?type=design&node-id=0%3A1&mode=design&t=WZO7UBc5BIMWBDZV-1"
+              "https://www.figma.com/file/sVFeLC0sVlJ1Kqb6bJVPJ2/E-commerce-Application-by-Fively-%2F-Dark-version-(Copy)?type=design&node-id=28%3A9&mode=design&t=zyyJ0NUoPcaDneXP-1"
             }
-            title={"Áp dụng kiến thức về Component, CSS, hoàn thiện UI"}
+            title={
+              "Áp dụng kiến thức về Component, CSS, hoàn thiện UI (Sign-Up, Login, Forgot password)"
+            }
           />
         </div>
       </AccordionContent>

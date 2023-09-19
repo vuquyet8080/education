@@ -37,7 +37,7 @@ export default function JavascriptTarget() {
       </AccordionContent>
 
       <AccordionContent className="pl-6 text-gray-500">
-        Prototype & Class
+        Prototype & Class & OOP
       </AccordionContent>
 
       <AccordionContent className="pl-6 text-gray-500">

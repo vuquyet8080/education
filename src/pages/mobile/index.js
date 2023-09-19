@@ -38,10 +38,9 @@ export default function Mobile() {
             <InternetTarget />
             <CssMobileTarget />
             <SetupEnv />
+            <ReactTarget isMobile={true} />
             <ComponentsMobile />
             <GitTarget />
-
-            <ReactTarget />
           </Accordion>
           {/* <h2 className="pt-12 mb-10 text-2xl font-bold text-gray-700 md:pt-14 lg:pt-16 dark:text-white md:text-4xl">
             Resource
