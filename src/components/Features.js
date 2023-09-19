@@ -136,7 +136,7 @@ export const Features = () => {
                   trên các thiết bị di động.
                 </p>
               </div>
-              <a
+              <Link
                 href="/mobile"
                 className="flex items-center justify-between group-hover:text-secondary"
               >
@@ -153,7 +153,7 @@ export const Features = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
