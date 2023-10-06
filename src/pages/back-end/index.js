@@ -6,6 +6,7 @@ import GitTarget from "@/components/target/FE/GitTarget";
 import InternetTarget from "@/components/target/FE/InternetTarget";
 import JavascriptTarget from "@/components/target/FE/JavascriptTarget";
 import { Accordion } from "@/components/ui/accordion";
+import Image from "next/image";
 export default function FrontEnd() {
   return (
     <div className="min-h-screen pb-32">
@@ -41,10 +42,26 @@ export default function FrontEnd() {
             <GitTarget />
             <NodeAndExpressTarget />
           </Accordion>
-          <h2 className="pt-12 mb-10 text-2xl font-bold text-gray-700 md:pt-14 lg:pt-16 dark:text-white md:text-4xl">
-            Resource
-          </h2>
-          <Stats showLinkFigma={false} />
+
+          <div id="solution">
+            <Container>
+              <div className="flex-row items-center justify-center space-y-6 text-gray-600 md:flex md:gap-6 md:space-y-0 lg:gap-12">
+                <div className="md:w-1/2 ">
+                  <div className="relative object-cover object-top w-full transition duration-500 group-hover:scale-105">
+                    <Image
+                      width={400}
+                      height={400}
+                      src={"/hrm_preview.webp"}
+                      alt="art cover"
+                      loading="lazy"
+                      // unoptimized
+                      className="object-cover w-full aspect-square "
+                    />
+                  </div>
+                </div>
+              </div>
+            </Container>
+          </div>
           <Container>
             <div className="pt-6 md:pt-10">
               <div className="w-full">
